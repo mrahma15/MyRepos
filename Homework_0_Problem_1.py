@@ -14,8 +14,8 @@ import matplotlib.pyplot as plt
 
 df = pd.read_csv('https://raw.githubusercontent.com/mrahma15/MyRepos/main/D3.csv')
 X1 = df.values[:, 0]                     # get input value from first column as Variable 1
-X2 = df.values[:, 1]                     # get input value from first column as Variable 2
-X3 = df.values[:, 2]                     # get input value from first column as Variable 3
+X2 = df.values[:, 1]                     # get input value from second column as Variable 2
+X3 = df.values[:, 2]                     # get input value from third column as Variable 3
 y = df.values[:, 3]                      # get output value from fourth column
 m = len(y)
 print('X1 = ', X1[: 5]) 
